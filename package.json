@@ -1,0 +1,23 @@
+{
+  "name": "frida-rebuild",
+  "version": "1.0.0",
+  "description": "Rebuild Frida Node.js bindings ",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanbmar/frida-rebuild.git"
+  },
+  "author": "Jean-Baptiste Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeanbmar/frida-rebuild/issues"
+  },
+  "homepage": "https://github.com/jeanbmar/frida-rebuild#readme",
+  "type": "module",
+  "bin": {
+    "frida-rebuild": "lib/index.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
