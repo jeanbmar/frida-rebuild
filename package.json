@@ -1,6 +1,6 @@
 {
   "name": "frida-rebuild",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Rebuild Frida Node.js bindings ",
   "main": "lib/index.js",
   "repository": {
