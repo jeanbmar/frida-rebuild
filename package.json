@@ -1,8 +1,10 @@
 {
   "name": "frida-rebuild",
-  "version": "1.0.3",
-  "description": "Rebuild Frida Node.js bindings ",
-  "main": "lib/index.js",
+  "version": "1.1.0",
+  "description": "Rebuild Frida Node.js bindings",
+  "type": "module",
+  "main": "lib/index.mjs",
+  "files": ["/lib/**/*"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeanbmar/frida-rebuild.git"
@@ -13,11 +15,10 @@
     "url": "https://github.com/jeanbmar/frida-rebuild/issues"
   },
   "homepage": "https://github.com/jeanbmar/frida-rebuild#readme",
-  "type": "module",
   "bin": {
-    "frida-rebuild": "lib/index.js"
+    "frida-rebuild": "lib/index.mjs"
   },
   "dependencies": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }
